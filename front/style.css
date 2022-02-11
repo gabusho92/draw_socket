@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.nav {
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.678);
+    width: 100%;
+    
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+}
+
+
+#boxMsg {
+    border: 1px solid black;
+    height: 400px;
+}
+
+canvas {
+    border: 1px solid black;
+    display: block;
+}
+
+#users {
+    border: 1px solid black;
+    width: 10%;
+}
+
+#users p {
+    margin-left: 20px;
+    margin-top: 10px;
+}
